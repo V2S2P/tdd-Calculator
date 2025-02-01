@@ -24,4 +24,11 @@ class CalcTest {
         int actual = calc.addition(5,5);
         assertEquals(expected, actual);
     }
+    @Test
+    @DisplayName("Test2")
+    void calcTest2(){
+        int expected = 0;
+        int actual = calc.subtraction(5,5);
+        assertEquals(expected, actual);
+    }
 }
